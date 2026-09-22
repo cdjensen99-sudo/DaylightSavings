@@ -1,0 +1,11 @@
+<Project>
+  <PropertyGroup>
+    <ValheimPath Condition="'$(ValheimPath)' == ''">D:\SteamLibrary\steamapps\common\Valheim</ValheimPath>
+    <ValheimManaged>$(ValheimPath)\valheim_Data\Managed</ValheimManaged>
+    <BepInExCore Condition="'$(BepInExCore)' == ''">$(USERPROFILE)\AppData\Roaming\com.kesomannen.gale\cache\denikson-BepInExPack_Valheim\5.4.2350\BepInEx\core</BepInExCore>
+    <GaleProfile Condition="'$(GaleProfile)' == ''">$(USERPROFILE)\AppData\Roaming\com.kesomannen.gale\valheim\profiles\New Release</GaleProfile>
+    <BepInExPath Condition="'$(BepInExPath)' == ''">$(GaleProfile)\BepInEx</BepInExPath>
+    <ModVersion>1.0.0</ModVersion>
+    <ModDeployDir>$(BepInExPath)\plugins\Hardwire99-DaylightSavings</ModDeployDir>
+  </PropertyGroup>
+</Project>

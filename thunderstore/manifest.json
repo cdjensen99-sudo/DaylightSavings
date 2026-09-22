@@ -1,0 +1,9 @@
+{
+  "name": "DaylightSavings",
+  "version_number": "1.0.0",
+  "website_url": "https://github.com/cdjensen99-sudo/DaylightSavings",
+  "description": "Pauses fires and lights when they are not needed. Fuel is kept until someone is nearby or daylight is gone.",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.2350"
+  ]
+}
